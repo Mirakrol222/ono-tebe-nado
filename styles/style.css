@@ -130,16 +130,16 @@
 
 .lots__card-list {
   display: flex;
+  flex-flow: row wrap;
   gap: 25px;
   list-style-type: none;
-  flex-flow: row wrap;
 }
 
 .lots__card-list-item {
+  flex: 1 334px;
   width: 100%;
   min-height: 563px;
   background-color: black;
-  flex: 1 334px;
 }
 
 .card-link {
